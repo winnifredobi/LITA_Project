@@ -1,7 +1,6 @@
 # LITA_Project
 
 ### Project Title: Analysis of the Effect of Aromatic Amino Acids on Bambara Groundnut
----
 
 
 ### Project Overview 
