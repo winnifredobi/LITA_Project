@@ -1,23 +1,26 @@
 # LITA_Project
 
-### Project Title: Analysis of the Effect of Aromatic Amino Acids on Bambara Groundnut
+### Project Title: Analysis of the Effect of Cartoon Characters on Children's Development
 
 
 ### Project Overview 
----
-This data analysis project aims to 
+--
+This data analysis project aims to discover the impact exposing children to cartoon characters has on their development. 
 
 ### Data Sources
 ---
-The primary source of data will be from data created and stored in excel for which the raw data is extracted features of amino acids stored in the laboratory.
+The primary source of data will be a cross section of children between the ages of 1 to 10 years, living in urban areas.
 
 ### Tools Used
 ---
 - Microsoft Excel [Download Here](https://www.microsoft.com)
+
   1. For Data Cleaning,
   2. For Analysis and
   3. For Data Visualization.
+
 - SQL- Structured Query Language for Quering of Data
+
 - GitHub for Portfolio Building
 
 
@@ -31,17 +34,42 @@ The following steps should be followed:
 ### Exploratory Data Analysis
 ---
 Now we need to answer some questions:
-- What is the overall effect?
-- What is the impact of the result on growth of Bambara groundnut?
+- At what age should children be allowed to watch cartoons?
+- What amount of screen time becomes detrimental to brain growth?  
+- What is the overall effect of excessive exposure to cartoon characters to the development of children 
+  with the sample size?
 
  
  ### Data Analysis
  ---
  ```SQL
-SELECT * FROM EMPLOYEE
-WHERE AGE >= 50
+SELECT * FROM CHILDREN_TABLE
+ CASE
+   WHEN AGE BETWEEN 1 AND 10 THEN SAMPLE SIZE
+ ELSE DISREGARD
+END AS SAMPLE_SIZE
 ```
 
 ### Data Visualization
+![ola](https://github.com/user-attachments/assets/ba1adb9d-e800-46f1-933a-3f5fed450d1b)
+![clips of the robots of quinzela 4](https://github.com/user-attachments/assets/e17684a9-2fd0-4e45-b92e-d44b00129ab0)
+
+
+|S/N|Name of Character|Gender|
+|---|-----------------|------|
+| 1 | Mickey Mouse    | Male |
+| 2 | Shimmer         | Female|
+| 3 | Rainbow Ruby    | Female|
+
+
+### Interpretation
+1. The colours used in the creation of the cartoon characters stimulate brain activity in children.
+2. It also keeps the minds of children in an explorative state and creative.
+3. Educative information can also be passed to the children due to the attractive nature of these characters. 
+
+
+💃💃💃
+
+😃
 
  
